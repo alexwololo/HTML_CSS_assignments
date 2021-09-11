@@ -1,0 +1,28 @@
+h1 {
+  font-family: sans-serif;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 180%;
+  
+}
+
+p {
+  font-family: serif;
+  line-height: 1.4;
+}
+
+/* 
+Uppgift: En rubrik och ett stycke
+Instruktioner
+Stilsätt rubriken så att den använder typsnittsfamiljen sans-serif. Gör också så att rubriktexten är “normal” (inte fetstilt), men däremot kursiv (“italic”).
+
+Stilsätt vidare stycket (innehållandes lorem ipsum-texten) så att det använder typsnittsfamiljen serif.
+
+Notera hur h1-elementets text saknar fötter (sans serif), medan p-elementets text har fötter (serif).
+
+Använd slutligen samma h1- och p-typväljare för att göra så att rubrikens textstorlek är 80% större än vanligt, samt så att radavståndet i stycket är 1,4 (via line-height). Notera att 1,4 inte är ett giltigt CSS-värde på grund av decimalavgränsaren.
+
+Ändra inte textstorleken på p-elementet.
+
+Din lösning  
+*/

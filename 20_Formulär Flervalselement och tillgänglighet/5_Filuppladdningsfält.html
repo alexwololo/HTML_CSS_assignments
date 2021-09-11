@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ett filuppladdningsfält (VG)</title>
+  <meta content="initial-scale=1, width=device-width" name="viewport">
+</head>
+
+<body>
+  <form action="https://avancera.app/api/assignments/3947a661-0232-457b-aed6-1b8c3d62271c/upload" method="POST"
+    enctype="multipart/form-data">
+    <label for="myfile">
+      <input type="file" id="myfile" name="myfile">
+    </label>
+    <input type="submit" value="Skicka">
+  </form>
+
+</body>
+
+</html>
+
+
+<!-- Uppgift: Ett filuppladdningsfält (VG)
+Instruktioner
+Objektivet i denna uppgift är att återskapa filuppladdningsfunktionaliten som finns i Avancera.
+
+Skapa ett input-filuppladdningsfält. Namnge (via name-attributet) fältet file.
+
+Inkludera filuppladdningsfältet och en “submit”-knapp i ett formulär som gör ett POST-anrop till https://avancera.app/api/assignments/3947a661-0232-457b-aed6-1b8c3d62271c/upload. (Punkten efter “upload” ska inte ingå i adressen, och hela adressen ska vara på en rad.)
+
+Sätt också form-elementets enctype-attribut till multipart/form-data.
+
+Skapa, när lösningen är färdigställd, en “lokal” fil på din dator som heter upload.html. Denna fil ska innehålla samma kod som finns i index.html.
+
+När upload.html-filen har skapats så ska den laddas upp till Avancera via Förhandsgranskning-rutan (inte Avanceras “Skicka in”-knapp). Med andra ord ska HTML-koden som du skriver skickas till Avancera via sitt eget filuppladdningsfält.
+
+Koden ska varken producera fel eller varningar i W3C:s valideringstjänst.
+
+Din lösning -->

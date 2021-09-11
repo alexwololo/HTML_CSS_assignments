@@ -1,0 +1,30 @@
+{
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "editor.tabSize": 2,
+    "editor.fontSize": 18,
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "breadcrumbs.enabled": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        80
+    ]
+}
+
+
+
+
+Uppgift: Ruler
+Instruktioner
+Det är en ganska vanlig konvention att undvika rader som är längre än 80 tecken. Ett visuellt streck (en så kallad ruler) i texteditorn gör det lättare att se var denna gräns går.
+
+Sök efter “rulers” i Code:s inställningar, och redigera settings.json-filen så att det finns ett streck (en ruler) vid kolumn 80.
+
+Konfigurera editor.rulers-inställningen. Värdet associerat med editor.rulers-egenskapen (alltså texten till höger om :) ska vara [80].
+
+Klistra in innehållet från filen settings.json nedan, på samma sätt som i den föregående uppgiften.
+
+Din lösning

@@ -1,0 +1,8 @@
+@font-face {
+  font-family: face;
+  src: url();
+}
+
+p {
+  font-family: "MyFont";
+}

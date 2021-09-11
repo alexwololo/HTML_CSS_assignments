@@ -1,0 +1,20 @@
+h1 {
+  font: italic normal 180% 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: serif;
+  line-height: 1.4;
+}
+
+/* 
+Uppgift: font-kortformen
+Instruktioner
+Anpassa lösningen på den föregående uppgiften. Kraven från den föregående uppgiften ska förbli uppfyllda.
+
+Ersätt h1-typsnittsegenskaperna så att en h1-typväljare endast innehåller en font-egenskap.
+
+Notera att font-kortformen kommer att säta font-weight och andra egenskaper till sina standardvärden, även om egenskaperna i fråga inte ingår i kortformen. Till exempel så skulle font: 1.2em 'Times New Roman', sans-serif; på h1-elementet sätta font-weight till normal.
+
+Din lösning
+*/

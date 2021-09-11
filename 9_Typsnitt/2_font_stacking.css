@@ -1,0 +1,26 @@
+h1 {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 180%;
+  
+}
+
+p {
+  font-family: serif;
+  line-height: 1.4;
+}
+
+/* 
+Uppgift: Font stacking
+Instruktioner
+Anpassa lösningen på den föregående uppgiften. Kraven från den föregående uppgiften ska förbli uppfyllda.
+
+Använd font stacking så att rubriken använder…
+
+Open Sans om den finns,
+Arial om Open Sans inte finns,
+Helvetica om Open Sans och Arial inte finns, och
+systemets standardtypsnitt utan fötter (sans-serif) annars.
+Din lösning  
+*/

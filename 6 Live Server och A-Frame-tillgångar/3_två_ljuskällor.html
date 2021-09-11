@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uppgift 3</title>
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+<body>
+  <a-scene>
+    <a-assets>
+      <img alt="" id="upg3" src="upg3.png">
+    </a-assets>
+    <a-box src="#upg3" position="0 1.5 -2" rotation="90 150 15"></a-box>
+    <a-light type="ambient" color="green"></a-light>
+    <a-light type="directional" color="white" intensity="3.8" position="12 -8 10"></a-light>
+    <a-sphere position="2 2 -3"></a-sphere>
+    <a-sky color="grey"></a-sky>
+  </a-scene>
+</body>
+</html>
+
+
+
+
+<!-- 
+Uppgift: Två ljuskällor
+Instruktioner
+Anpassa lösningen från den föregående uppgiften. Kraven från den föregående uppgiften ska förbli uppfyllda.
+
+Använd a-light-elementet för att lägga in två ljuskällor.
+
+Det ena ljuset ska vara av typen Ambient, och ska ha färgen green.
+
+Det andra ljuset ska vara av typen Directional, ska ha färgen white, och ska vara riktat från det nedre högra hörnet utifrån kamerans standardposition och -rotation.
+
+Det kan underlätta att lägga in ett a-sphere-element i scenen för att förstå den riktade ljuskällans effekt (men detta är valfritt).
+
+En webbserver behövs för att A-Frame ska kunna läsa in bilden.
+
+Koden ska varken producera fel eller varningar i W3C:s valideringstjänst.
+
+Ladda upp både index.html och bildfilen. 
+-->

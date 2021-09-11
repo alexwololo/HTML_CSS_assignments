@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+#second {
+  flex-grow: 1;
+}
+
+main {
+  flex-grow: 2;
+}
+
+footer {
+  height: 2rem;
+}

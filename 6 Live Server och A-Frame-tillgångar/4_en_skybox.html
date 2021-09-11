@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uppgift 4</title>
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+<body>
+  <a-scene>
+    <a-assets>
+      
+      <img alt="" id="upg4" src="upg4.jpg">
+    </a-assets>
+    <a-box position="0 1.5 -2" rotation="90 150 15"></a-box>
+    <a-light type="ambient" color="green"></a-light>
+    <a-light type="directional" color="white" intensity="0.5" position="12 -8 10"></a-light>
+    <a-sphere position="2 2 -3"></a-sphere>
+
+    <!-- <a-assets>
+      <img alt="" id="upg4" src="upg4.jpg">
+    </a-assets> -->
+    <a-sky src="#upg4"></a-sky>
+  </a-scene>
+</body>
+</html>
+
+
+
+
+<!-- 
+Uppgift: En skybox
+Instruktioner
+Ladda ner en skybox-bild, från exempelvis https://www.flickr.com/groups/equirectangular/.
+
+Inlämningens totala filstorlek får inte överskrida 1 MB.
+
+a-sky-elementet, och ett annat id-värde än east-pocket.
+
+Placera bilden i samma mapp som index.html.
+
+Konfigurera bilden via a-assets-elementet. Använd ett annat id-värde än east-pocket.
+
+En webbserver behövs för att A-Frame ska kunna läsa in bilden.
+
+Koden ska varken producera fel eller varningar i W3C:s valideringstjänst.
+
+Ladda upp både index.html och bildfilen.
+-->

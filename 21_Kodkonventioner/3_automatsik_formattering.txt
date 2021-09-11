@@ -1,0 +1,27 @@
+{
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "editor.tabSize": 2,
+    "editor.fontSize": 18,
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "breadcrumbs.enabled": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.formatOnSave": true
+}
+
+
+
+
+Uppgift: Automatisk formatering
+Instruktioner
+Konfigurera Code så att exempelvis HTML- och CSS-kod formateras (motsvarande F1 > Format Document) automatiskt då filer sparas.
+
+Code:s inställningar sparas i en fil som heter settings.json. Denna fil kan öppnas via F1 följt av kommandot Preferences: Open Settings (JSON).
+
+Klistra in JSON-filens innehåll nedan.
+
+Editor: Tab Size-inställningen i Code kan ändra standardinställningen från 4 till 2. Editor: Detect Indentation kan användas för att göra så att Editor: Tab Size-inställningen alltid “respekteras”. Dessa två inställningar behöver dock inte (men kan) ingå i inlämningen.
+
+Din lösning

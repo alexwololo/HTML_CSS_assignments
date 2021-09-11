@@ -1,0 +1,17 @@
+@font-face {
+  font-family: MyFont;
+  src: url('Lato_Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: MyFont;
+  src: url('Lato-Light.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300;
+}
+
+p {
+  font-family: MyFont, sans-serif;
+}

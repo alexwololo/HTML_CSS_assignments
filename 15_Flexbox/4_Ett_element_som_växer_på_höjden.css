@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  flex-direction: column;
+
+}
+
+header {
+  height: 3rem;
+}
+
+main {
+  flex-grow: 2;
+}
+
+footer {
+  height: 2rem;
+}

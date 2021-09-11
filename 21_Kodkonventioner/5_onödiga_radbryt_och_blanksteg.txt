@@ -1,0 +1,33 @@
+{
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "editor.tabSize": 2,
+    "editor.fontSize": 18,
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "breadcrumbs.enabled": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        80
+    ],
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true
+}
+
+
+
+Uppgift: Onödiga radbrytningar och blanksteg (VG)
+Instruktioner
+Utöka settings.json så att egenskaperna files.insertFinalNewline, files.trimFinalNewlines och files.trimTrailingWhitespace sätts till true.
+
+Detta gör så att…
+
+varje rad avslutas med en radbrytning,
+onödiga radbrytningar tas bort från början och slutet av filen, samt
+blanksteg (såsom mellanslag) i slutet på rader tas bort automatiskt, då man sparar.
+Klistra in innehållet från filen settings.json nedan, på samma sätt som i den föregående uppgiften.
+
+Din lösning

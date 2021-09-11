@@ -1,0 +1,17 @@
+@media (min-width: 500px) {
+  body {
+      background-color: blue;
+  }
+}
+
+/* Uppgift: Ett öppet breddintervall
+Instruktioner
+Använd en media query för att göra så att body-elementets bakgrundsfärg blir blue om webbläsarfönstrets bredd är 500px eller mer, men inte annars.
+
+Infoga också ett viewport-meta-element i HTML-filen, där width sätts till device-width och initial-scale sätts till 1, så att zoom-nivån är “rätt” och media queries fungerar som de ska på mobila enheter.
+
+Klicka och dra i det nedre högra hörnet på Förhandsgranskning-rutan för att ändra på denna “inbakade” webbläsares bredd. Att ändra storlek på rutan ska kunna lägga till, eller ta bort, den blå bakgrundsfärgen.
+
+Koden ska varken producera fel eller varningar, i W3C:s valideringstjänster för HTML och CSS.
+
+Din lösning */

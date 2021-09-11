@@ -1,0 +1,22 @@
+h1 {
+  color: #0000ff;
+}
+
+p {
+  color: #0ff;
+}
+
+
+/* 
+Uppgift: Två hexadecimala färgkoder
+Instruktioner
+Utgå från HTML-koden i index.html nedan.
+
+Den här uppgiften går ut på att sätta color-egenskapen två gånger.
+
+Använd typväljaren h1 och en sju tecken (sex hexadecimala siffror) lång hexadecimal färgkod (inklusive #) som innehåller en maximal mängd blått, men inget grönt eller rött.
+
+Använd även typväljaren p och en fyra tecken (tre hexadecimala siffror) lång hexadecimal färgkod (inklusive #) som innehåller en maximal mängd grönt och en maximal mängd blått, men inget rött. Detta ska producera en turkos färg.
+
+Din lösning
+*/

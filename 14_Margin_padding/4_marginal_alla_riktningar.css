@@ -1,0 +1,10 @@
+h1 {
+  background: blueviolet;
+  border: solid 3px black;
+  padding: 1px 1px;
+  margin: 40px .5em 20px 2rem;
+}
+
+body {
+  margin: 0;
+}
